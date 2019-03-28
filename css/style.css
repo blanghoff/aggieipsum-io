@@ -1,6 +1,7 @@
 h1 {
-	color: #500000;
+	color: var(--aggie-maroon);
 	text-align: center;
+	font-family: 'Oswald', 'sans-serif';
 }
 
 h3 {
@@ -12,4 +13,35 @@ h3 {
 
 p {
 	font-family: sans-serif;
+}
+
+a {
+	color: var(--aggie-white);
+	text-decoration: none;
+	font-weight: bold;
+	font-family: monospace;
+}
+
+:root {
+	--aggie-maroon: #500000;
+	--aggie-white: #FFFFFF;
+	--aggie-blue: #003C71;
+	--aggie-olive: #5B6236;
+	--aggie-brown: #744F28;
+	--aggie-gold: #744F28;
+	--aggie-dark-grey: #332C2C;
+	--aggie-light-grey: #707373;
+	--aggie-silver: #D6D3C4;
+	--aggie-accent-yellow: #FCE300;
+	--aggie-accent-red: #E4002B;
+}
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: var(--aggie-maroon);
+	color: var(--aggie-white);
+	text-align: center;
 }
